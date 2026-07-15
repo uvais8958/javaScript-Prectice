@@ -13,7 +13,33 @@
 -Dom
 
 
-## 
+## Add Information in URLs
+
+--Query parameters are (key-value) pairs added to the end of a URL 
+--to send additional information to a server.
+
+## HTTP Header
+
+--HTTP Headers are (key-value) pairs exchanged between the
+client and the server the carry metadata about an HTTP "request" or "response",such as "Content-Type","authentication","catching",and "accepted format,".
+
+## Request Header (client->Server)
+
+--when the browser sends a request
+
+GET/UserHTTP/1.1
+Host:example.com
+Content-Type:application/json
+Authorization:Bearer your-Token
+Accept:application/json
+
+## Response Header (server->clinet)
+
+--when the server sends a response
+HTTP/1.1 200 OK
+Content-Type:application/JSON
+Content-legnth:120
+Cache-Control:no-cache
 
 ## CallBack function
 

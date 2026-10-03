@@ -1,50 +1,97 @@
+
+//Q 1:
 let name="Uvais";
-console.log(typeof name);  //string
+let age=23;
+let isDeveloper=true;
 
-let  age=23;
-console.log(typeof age); //number
+console.log(name);//Uvais
+console.log(age);//23
+console.log(isDeveloper);//true
 
-let isStudent=true;
-console.log(typeof isStudent); //Boolean
+// /*
 
-let x;
-console.log(x);// undefined
-console.log(typeof x); // typeof undefined
+// output
 
-let x2=null;
-console.log(x2); //null
-console.log(typeof x2); //object
-
-
-let a="100";
-let b=100;
-console.log( typeof a);//string
-console.log(typeof b);//number
+// Uvais
+// 23
+// true
 
 
-const user={
-    name:"Uvais",
-    age:23
-}
-console.log(typeof user);//kyuki {} ke ander user ek object hai to return karega 
+// */ 
 
-let numbers=[1,2,3,4,5,6];
-console.log(typeof numbers); // javascript mein array technically object ka specialy type hai isiliye.
+// //Q2
 
-var c=10;
-var c=20;
-console.log(c);//20 kyuki var ek function scope varriable hai ise hum redeclare and reassign kar skte hai
-
-let e=10;
- e=20;
-console.log(e);//20
+console.log(typeof"hellow");//String 
+console.log(typeof 100);//number
+console.log(typeof true);//boolean
+console.log(typeof undefined);//undefined
+console.log(typeof null);//object
 
 
-// const w=10;
-// w=20;
-// console.log(w);//typeError
 
-//Type Coercion
-let q="10";
-let r=10;
-console.log( typeof q+r)//
+// /*
+// out put
+
+// string
+// number
+// boolean
+// undefined
+// object
+
+
+
+// */ 
+
+//Q 2
+console.log(5=="5");//true
+console.log(5==="5");//flase
+
+
+// /*
+
+// true
+// false
+
+
+// */ 
+
+
+//Q 4
+let x=5;
+let y="10";
+console.log(x+y);//510
+console.log(y-x);//-5
+
+
+// /*
+// out put
+
+// 510
+// 5
+
+// */ 
+
+
+//Q5
+
+console.log(10+"20");//1020
+console.log("10"-5);//5
+console.log(true+1);//2
+console.log(false+2);//2
+console.log(null+5);//5
+console.log(undefined+5);//NAN
+
+
+/*
+out put
+
+1020
+5
+2
+2
+5
+NaN  
+
+
+
+*/

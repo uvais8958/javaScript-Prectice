@@ -95,3 +95,13 @@ NaN
 
 
 */
+
+
+// Operators in js
+console.log(10+2);//12
+console.log(20-10);//10
+console.log(20*10);//200
+console.log(20/10);//2
+console.log(12%3);//0
+
+

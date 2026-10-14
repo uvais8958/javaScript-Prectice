@@ -58,5 +58,67 @@ out put
 
 //largest number find 
 
+//Array Mathods
+
+//map
+// let num=[1,2,3,4];
+// let double=num.map(function(el){
+//     return el *2;
+// });
+// console.log(double);// [ 2, 4, 6, 8 ]
+
+//Filter
+
+// let arr=[2,4,1,5,6,7,8,9];
+// let even=arr.filter((num)=>(num%2==0));
+// console.log(even);//      [ 2, 4, 6, 8 ]
+
+// //Everry()
+
+// let res=[1,2,3,4,5].every((el)=>(el%2==0));
+// console.log(res);//false
 
 
+// let res2=[2,4,6].every((el)=>(el%2==0));
+// console.log(res2);//true
+
+// let a=[1,2,4];
+// let r=a.some((el)=>(el%2==0));
+// console.log(r);
+
+
+let number=[2,4,6,8];
+let result=number.map(function(el){
+    return el*2;
+})
+console.log(result);//[ 4, 8, 12, 16 ]
+
+let num=[11,20,31,40,51,60];
+let even=num.filter((even)=>(even%2==0));
+console.log(even);//[ 20, 40, 60 ]
+
+let n=[5,10,15,20];
+let sum=n.reduce(function(sum,number){
+    return sum+number
+})
+console.log(sum);//50
+
+let a=[1,2,3,4,5,6];
+let c=a.map(num=>num+5);
+console.log(c);//[ 6, 7, 8, 9, 10, 11 ]
+
+let employee={
+    name:"Uvais",
+    subject:"Java",
+    year:"2025",
+    course:"BCA"
+}
+console.log("Employee Name",employee.name,"Employee Course",employee.course)  //Employee Name Uvais Employee Course BCA
+
+
+let student={
+    name:"Aman",
+    age:25,
+}
+student.age=21;
+console.log(student);
